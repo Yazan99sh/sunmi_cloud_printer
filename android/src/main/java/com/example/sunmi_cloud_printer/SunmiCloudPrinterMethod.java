@@ -79,53 +79,53 @@ public class SunmiCloudPrinterMethod {
                         @Override
                         public void onFound() {
                             System.out.println("onFound");
-                            Toast.makeText(
-                                    _context,
-                                    "Sunmi Printer Found",
-                                    Toast.LENGTH_LONG
-                            ).show();
+//                            Toast.makeText(
+//                                    _context,
+//                                    "Sunmi Printer Found",
+//                                    Toast.LENGTH_LONG
+//                            ).show();
 
                         }
 
                         @Override
                         public void onUnfound() {
                             System.out.println("onUnfound");
-                            Toast.makeText(
-                                    _context,
-                                    "Sunmi Printer Unfound",
-                                    Toast.LENGTH_LONG
-                            ).show();
+//                            Toast.makeText(
+//                                    _context,
+//                                    "Sunmi Printer Unfound",
+//                                    Toast.LENGTH_LONG
+//                            ).show();
                         }
 
                         @Override
                         public void onConnect() {
                             System.out.println("onConnect");
-                            Toast.makeText(
-                                    _context,
-                                    "Sunmi Printer Connected",
-                                    Toast.LENGTH_LONG
-                            ).show();
+//                            Toast.makeText(
+//                                    _context,
+//                                    "Sunmi Printer Connected",
+//                                    Toast.LENGTH_LONG
+//                            ).show();
                         }
 
                         @Override
                         public void onDisconnect() {
                             System.out.println("onDisconnect");
-                            Toast.makeText(
-                                    _context,
-                                    "Sunmi Printer Disconnected",
-                                    Toast.LENGTH_LONG
-                            ).show();
+//                            Toast.makeText(
+//                                    _context,
+//                                    "Sunmi Printer Disconnected",
+//                                    Toast.LENGTH_LONG
+//                            ).show();
                         }
 
                     })
             );
         } else {
             System.out.println("Already connected");
-            Toast.makeText(
-                    _context,
-                    "Already connected",
-                    Toast.LENGTH_LONG
-            ).show();
+//            Toast.makeText(
+//                    _context,
+//                    "Already connected",
+//                    Toast.LENGTH_LONG
+//            ).show();
         }
     }
 

@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
 
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> initPlatformState() async {
-    await SunmiCloudPrinter.setNetPrinter("192.168.2.93");
+    await SunmiCloudPrinter.setNetPrinter("192.168.0.131");
     await SunmiCloudPrinter.connect();
   }
 
