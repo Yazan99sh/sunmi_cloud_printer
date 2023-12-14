@@ -52,6 +52,12 @@ class _MyAppState extends State<MyApp> {
                   child: const Text("Print connection test")),
               ElevatedButton(
                   onPressed: () async => {
+                    await SunmiCloudPrinter.lineWrap(3),
+                    await SunmiCloudPrinter.cut(),
+                  },
+                  child: const Text("Cut")),
+              ElevatedButton(
+                  onPressed: () async => {
                     await SunmiCloudPrinter.printQRCode('https://canteen.risto.cloud/api/company/service_status', size: 8),
                     await SunmiCloudPrinter.lineWrap(3),
                   },

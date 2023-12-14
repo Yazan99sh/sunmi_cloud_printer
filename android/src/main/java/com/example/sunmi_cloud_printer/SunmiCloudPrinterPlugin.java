@@ -213,7 +213,7 @@ public class SunmiCloudPrinterPlugin implements FlutterPlugin, MethodCallHandler
             }
             case "CUT_PAPER" -> {
                 try {
-                    sunmiCloudPrinterMethod.cutPaper(2, 255);
+                    sunmiCloudPrinterMethod.cutPaper(0, 10);
                 } catch (Exception ignored) {
                     result.success(false);
                     break;
