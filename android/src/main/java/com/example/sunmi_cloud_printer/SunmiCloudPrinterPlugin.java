@@ -220,7 +220,6 @@ public class SunmiCloudPrinterPlugin implements FlutterPlugin, MethodCallHandler
                 }
                 result.success(true);
             }
-            }
             case "PRINT_ROW" -> {
                 String colsStr = call.argument("cols");
                 try {
